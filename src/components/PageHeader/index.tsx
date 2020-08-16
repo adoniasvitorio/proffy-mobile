@@ -12,7 +12,7 @@ interface PageHeaderProps {
     title: string;
 }
 
- const PageHeader: React.FunctionComponent<PageHeaderProps> = ({ title }) => {
+ const PageHeader: React.FunctionComponent<PageHeaderProps> = ({ title, children }) => {
 
     const { navigate } = useNavigation();
 
@@ -30,8 +30,8 @@ interface PageHeaderProps {
                 <Image source={logoImg} resizeMode='contain' />
             </View>
 
-     <Text style={styles.title}>{ title }</Text>
-
+            <Text style={styles.title}>{ title }</Text>
+            {children}
         </View>
      ) 
  }
