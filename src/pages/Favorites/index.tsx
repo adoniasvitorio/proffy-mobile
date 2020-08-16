@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { View, ScrollView } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
+import { useFocusEffect } from '@react-navigation/native';
 
 import PageHeader from '../../components/PageHeader';
 import TeacherItem, { Teacher } from '../../components/teacherItem';
@@ -21,9 +22,11 @@ function Favorites() {
             });
     }
 
-    useEffect(() => {
-        loadFavorites();
-    }, []);
+    useFocusEffect(
+        React.useCallback(() => {
+            loadFavorites();
+        }, [])
+    );
 
     return (
         <View style={styles.container}>
