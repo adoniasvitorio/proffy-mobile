@@ -1,6 +1,6 @@
-<h1 align="center" background="blue">
+<h1>
 <img src="proffy-home.png" alt="Proffy" width="600px" />
-<img src="proffy-mobile-home.png" alt="Proffy" width="600px" />
+<img src="proffy-mobile-home.png" alt="Proffy" width="156px" />
 </h1>
 
 ## PROJECT
@@ -20,7 +20,7 @@ Front-end: https://github.com/adoniasvitorio/proffy-web<br />
 
 ## INSTALL AND RUN
 
-```git clone https://github.com/adoniasvitorio/proffy-backend.git```<br />
+```git clone https://github.com/adoniasvitorio/proffy-mobile.git```<br />
 ```cd proffy-backend```<br />
 ```expo start```<br />
 
