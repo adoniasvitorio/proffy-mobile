@@ -21,7 +21,7 @@ Front-end: https://github.com/adoniasvitorio/proffy-web<br />
 ## INSTALL AND RUN
 
 ```git clone https://github.com/adoniasvitorio/proffy-mobile.git```<br />
-```cd proffy-backend```<br />
+```cd proffy-mobile```<br />
 ```expo start```<br />
 
 ## LINKS
