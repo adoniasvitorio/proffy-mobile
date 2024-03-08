@@ -3,31 +3,43 @@
 <img src="proffy-mobile-home.png" alt="Proffy" width="156px" />
 </h1>
 
-## PROJECT
-**Proffy** has been created as a conclusion of the Next Level Week Bootcamp at Rocketseat School.<br />
-This project is back-end platform that brings interested in learning any content and teachers in these areas. 
+# Proffy - Plataforma de Estudos Online
 
-Another parts of this project can be consult here:
+Este projeto é uma plataforma de estudos online, onde alunos interessados em aprender qualquer assunto podem se conectar a professores dispostos a ensiná-los. A tecnologia utilizada para desenvolver este projeto é o **React Native** com **Expo** e  **TypeScript**.
 
-Back-end: https://github.com/adoniasvitorio/proffy-backend<br />
-Front-end: https://github.com/adoniasvitorio/proffy-web<br />
+## Objetivo
 
-## TECHS
-### Mobile.
-* React Native.
-* TypeScript.
-* Expo.
+O objetivo principal deste projeto foi pesquisar e aprender mais sobre TypeScript. Tive a oportunidade de experimentar e explorar diferentes recursos do TypeScript, como tipos, interfaces e anotações de tipo.
 
-## INSTALL AND RUN
+## Funcionalidades
 
-```git clone https://github.com/adoniasvitorio/proffy-mobile.git```<br />
-```cd proffy-mobile```<br />
-```expo start```<br />
+- **Cadastro de Alunos e Professores**: Os usuários podem se cadastrar na plataforma como alunos ou professores.
+- **Busca por Assuntos**: Os alunos podem pesquisar por assuntos específicos e encontrar professores que oferecem aulas relacionadas.
+- **Agendamento de Aulas**: Alunos podem agendar aulas com os professores disponíveis.
+- **Chat com Whatsapp**: Uma funcionalidade de chat permite que alunos e professores se comuniquem direcionando os alunos para o whatsapp do professor.
 
-## LINKS
-[Rocketseat](https://rocketseat.com.br/).<br />
-[Bootcamp-Next Level Week](https://rocketseat.com.br/)<br />
-[Skylab](https://app.rocketseat.com.br/).
+## Como Contribuir
 
-## ABOUT ME
-I am available and the best way to find me is following this [Link](https://github.com/adoniasvitorio)
+Se você deseja contribuir para este projeto e aprender mais sobre TypeScript, siga os passos abaixo:
+
+1. Clone o repositório usando `git clone https://github.com/adoniasvitorio/proffy-mobile.git`.
+2. Instale as dependências usando `npm install` ou `yarn start`.
+3. Execute com `expo start`.
+4. Explore o código-fonte e os arquivos TypeScript em `./src` para entender como a plataforma funciona.
+
+## Aprendendo com TypeScript
+
+Para aprofundar seus conhecimentos em TypeScript, recomendo as seguintes fontes:
+
+- [Documentação oficial do TypeScript](https://www.typescriptlang.org/docs/)
+- [Documentação oficial do Expo](https://docs.expo.dev/)
+- Tutoriais e artigos online
+- Experimentação prática: modifique o código existente e observe como o TypeScript se comporta.
+
+## Outras partes do projeto
+
+ - [Repositorio backend](https://github.com/adoniasvitorio/proffy-backend)
+ - [Repositorio frontend](https://github.com/adoniasvitorio/proffy-web)
+
+
+Divirta-se explorando e aprendendo com este projeto!
